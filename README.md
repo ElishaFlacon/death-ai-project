@@ -12,11 +12,12 @@
 
 
 <h2>
-  🛠️ Библиотеки для работы бота:
+  🛠️ Инструменты, которые использовались при разработке скрипта:
 </h2>
 
-- deepface==0.0.75
-- opencv-python==4.6.0.66
+- Python
+- Deepface
+- OpenCV
 
 
 
@@ -28,14 +29,14 @@
   🚀 Зпуск приложения:
 </h2>
 
-- git clone https://github.com/ElishaFlacon/emotions-recognizer.git
-- cd emotions-recognizer
-- python -m venv <venv_name>
-- source <venv_name>/Scripts/activate (linux) or <venv_name>/Scripts/activate (windows)
-- pip install -r ./requirements.txt
+- `git clone https://github.com/ElishaFlacon/emotions-recognizer.git`
+- `cd emotions-recognizer`
+- `python -m venv <venv_name>`
+- `<venv_name>/Scripts/activate` (windows) или `source <venv_name>/Scripts/activate` (linux)
+- `pip install -r ./requirements.txt`
 - необходимо скачать haarcascade_frontalface_default.xml из <a href="https://github.com/opencv/opencv/tree/4.x/data/haarcascades">haarcascades</a>, полсе чего запихнуть, либо в проект и изменить путь до него (9 строка), либо в папку с библиотекой <venv_name>/Lib/site-packages/cv2/data. Во втрором случае код не меняем
 - изменяем остальной код под свои нужды
-- python main.py
+- `python main.py`
 <h3>
     Запускаем, не работет, ура! 🗿🚬
 </h3>
